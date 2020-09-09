@@ -6,9 +6,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'gu&ebyu66lxw86lptko^1-q+q4erb0dj&0ko648*d$(6v-fs62'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sagarsedai-django-deploy.herokuapp.com']
 
 
 REST_FRAMEWORK = {
